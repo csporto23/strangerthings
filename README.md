@@ -1,4 +1,5 @@
 # strangerthings
+# https://strangerthings.netlify.com/
 
 This is a clicky game that is scored by how many images you can click without clicking the same one more than once in a single game. 
 Once you have hit the same image twice in a single game. The game is over, you score is recorded in the top right corner of the app.
