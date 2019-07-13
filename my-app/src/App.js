@@ -6,12 +6,21 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
+  
   state = {
     strangers
   };
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
+  // orderChange = id => {
+
+  //   const strangers = this.state.strangers.sort(stranger => stranger.id !== id);
+  //   this.setState({ strangers })
+  // }
+
+  // scoreAdd = id => {
+
+  // }
+
   render() {
     return (
       <div>
