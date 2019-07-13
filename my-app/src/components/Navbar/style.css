@@ -1,0 +1,9 @@
+#navbar{
+    background-color: darkorchid;
+    position: fixed;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 1px 2px 2px 1px rgba(196, 193, 193, 0.966);
+}
