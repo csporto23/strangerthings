@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import FriendCard from "./components/FriendCard";
+import FriendCard from "./components/StrangerCard";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
 import strangers from "./stranger.json";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 
 class App extends Component {
   // Setting this.state.friends to the friends json array
@@ -20,9 +21,11 @@ class App extends Component {
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
-      <Wrapper>
-        <Title>Stranger Things Clicky Game!</Title>
-        {this.state.strangers.map(stranger => (
+      <div>
+    <Navbar></Navbar>
+    <Header></Header>
+   <Wrapper>
+        {this.state.strangers.map(strangers => (
           <FriendCard
             removeFriend={this.removeFriend}
             id={strangers.id}
@@ -32,6 +35,8 @@ class App extends Component {
           />
         ))}
       </Wrapper>
+      </div>
+   
     );
   }
 }
