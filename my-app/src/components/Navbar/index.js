@@ -8,7 +8,7 @@ function Navbar() {
     return(
       <div id="navbar">
         <Container id="navContainer">
-        <Row>
+        <Row className="text-white">
           <Col>
           <h2>Clicky Game</h2>
           </Col>
